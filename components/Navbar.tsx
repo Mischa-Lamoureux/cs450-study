@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/flashcards', label: 'Flashcards' },
   { href: '/quiz', label: 'Quiz' },
   { href: '/practice-finals', label: 'Practice Finals' },
+  { href: '/assignment-practice', label: 'HW Practice' },
   { href: '/progress', label: 'Progress' },
 ];
 

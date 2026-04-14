@@ -21,6 +21,7 @@ const features = [
   { href: '/flashcards', icon: '🃏', title: 'Flashcards', desc: 'Spaced repetition study cards', color: 'from-cyan-500/20 to-blue-500/20 hover:from-cyan-500/30 hover:to-blue-500/30' },
   { href: '/quiz', icon: '✏️', title: 'Quizzes', desc: 'Test your knowledge by topic', color: 'from-emerald-500/20 to-teal-500/20 hover:from-emerald-500/30 hover:to-teal-500/30' },
   { href: '/practice-finals', icon: '📝', title: 'Practice Finals', desc: '3 full practice exams with grading', color: 'from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30' },
+  { href: '/assignment-practice', icon: '📎', title: 'HW Practice', desc: 'Exam-style questions from HW1-HW5', color: 'from-rose-500/20 to-pink-500/20 hover:from-rose-500/30 hover:to-pink-500/30' },
 ];
 
 export default function HomePage() {
