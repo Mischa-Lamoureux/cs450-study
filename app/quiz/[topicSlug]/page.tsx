@@ -68,7 +68,7 @@ export default function QuizPage() {
       if (lower === correct) return true;
       if (question.acceptableAnswers) {
         return question.acceptableAnswers.some(
-          (a) => lower.includes(a.toLowerCase()) || a.toLowerCase().includes(lower)
+          (a) => lower.includes(a.toLowerCase())
         );
       }
       return false;

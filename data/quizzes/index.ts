@@ -199,7 +199,7 @@ const branchPrediction: QuizQuestion[] = [
     question:
       'What is the term for the situation where two different branches map to the same entry in the Pattern History Table, causing interference?',
     correctAnswer: 'aliasing',
-    acceptableAnswers: ['aliasing', 'destructive aliasing', 'interference', 'collision'],
+    acceptableAnswers: ['aliasing', 'destructive aliasing', 'destructive interference', 'collision', 'alias'],
     explanation:
       'Aliasing (also called destructive aliasing or interference) occurs when multiple branches map to the same PHT entry. Their histories interfere with each other, potentially reducing prediction accuracy. Gshare attempts to reduce aliasing by XORing the PC with the GHR.',
     points: 2,
